@@ -8,6 +8,9 @@ const foto3 = document.querySelector('.foto3');
 
 const header = document.querySelector('header');
 const main = document.querySelector('main');
+const footer = document.querySelector('footer');
+const about = document.querySelector('.about');
+const categories = document.querySelector('.categories');
 
 gallery.onclick = () => { 
     foto1.src = "img/coffee2.webp";
@@ -21,8 +24,14 @@ greeting.onclick = () => {
 
 theme.onclick = () => { 
     header.style.backgroundColor = "#171717";
-    header.style.color = "#C8C8CD";
     main.style.backgroundColor = "#212121";
     main.style.color = "#FFFFFF";
+    footer.style.backgroundColor = "#171717";
+    footer.style.color = "#FFFFFF";
+    document.body.style.backgroundColor = "#414141";
+    about.style.backgroundColor = "#2F2F2F";
+    about.style.color = "#FFFFFF";
+    categories.style.backgroundColor = "#2F2F2F";
+    categories.style.color = "#FFFFFF";
 }
 
